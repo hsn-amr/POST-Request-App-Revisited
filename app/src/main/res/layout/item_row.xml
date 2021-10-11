@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="name"
-            android:textColor="#673AB7" />
+            android:textColor="@color/purple_500" />
 
         <TextView
             android:id="@+id/tvLocation"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:text="location"
-            android:textColor="#673AB7" />
+            android:textColor="@color/purple_500" />
     </LinearLayout>
 
     <LinearLayout
@@ -40,7 +40,7 @@
             android:id="@+id/fabEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple_500"
+            android:backgroundTint="@color/purple_200"
             android:background="@color/white"
             android:clickable="true"
             app:srcCompat="@drawable/ic_edit"
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/purple_500"
+            android:backgroundTint="@color/purple_200"
             android:background="@color/white"
             android:clickable="true"
             app:srcCompat="@drawable/ic_delete"
